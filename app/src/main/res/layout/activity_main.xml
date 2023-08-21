@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ryan Macharika - S2023365-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recyclerView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="521dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:padding="16dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewHeading"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Convert GBP Currency"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewResult"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Convert GBP Currency"-->
+<!--        android:textSize="12sp"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/gbpRow"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/textViewHeading"-->
+<!--        android:layout_marginTop="16dp">-->
+
+<!--        &lt;!&ndash; Flag icon &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewFlagGBP"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/gb"-->
+<!--            android:layout_alignParentStart="true"/>-->
+
+<!--        &lt;!&ndash; Currency Code GBP &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/textViewCurrencyGBP"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="GBP"-->
+<!--            android:layout_toEndOf="@id/imageViewFlagGBP"-->
+<!--            android:layout_marginStart="8dp"/>-->
+
+<!--        &lt;!&ndash; Value 1 &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/textViewValueGBP"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="1"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_alignParentEnd="true"/>-->
+<!--    </RelativeLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewComparison"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Comparison to other currencies"-->
+<!--        android:textSize="18sp"-->
+<!--        android:layout_below="@id/gbpRow"-->
+<!--        android:layout_marginTop="16dp"/>-->
+
+<!--    &lt;!&ndash; List of top three currencies &ndash;&gt;-->
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/currencyList"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/textViewComparison"-->
+<!--        android:layout_marginTop="8dp">-->
+
+<!--        &lt;!&ndash; Row for Currency 1 &ndash;&gt;-->
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/currencyRow1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            &lt;!&ndash; Flag icon for Currency 1 &ndash;&gt;-->
+<!--            <ImageView-->
+<!--                android:id="@+id/imageViewFlagCurrency1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/gb"-->
+<!--                android:layout_alignParentStart="true"/>-->
+
+<!--            &lt;!&ndash; Currency Code for Currency 1 &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/textViewCurrency1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Currency 1"-->
+<!--                android:layout_toEndOf="@id/imageViewFlagCurrency1"-->
+<!--                android:layout_marginStart="8dp"/>-->
+
+<!--            &lt;!&ndash; Conversion value for Currency 1 &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/textViewValueCurrency1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Conversion 1"-->
+<!--                android:layout_alignParentEnd="true"/>-->
+<!--        </RelativeLayout>-->
+
+<!--        &lt;!&ndash; Row for Currency 2 (similar to Currency 1) &ndash;&gt;-->
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/currencyRow2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/currencyRow1"-->
+<!--            android:layout_marginTop="8dp">-->
+<!--            &lt;!&ndash; Similar views as Currency 1 row &ndash;&gt;-->
+<!--        </RelativeLayout>-->
+
+<!--        &lt;!&ndash; Row for Currency 3 (similar to Currency 1) &ndash;&gt;-->
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/currencyRow3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/currencyRow2"-->
+<!--            android:layout_marginTop="8dp">-->
+<!--            &lt;!&ndash; Similar views as Currency 1 row &ndash;&gt;-->
+<!--        </RelativeLayout>-->
+<!--    </RelativeLayout>-->
+
+<!--    &lt;!&ndash; "Search more currencies" button &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/buttonSearch"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Search more currencies"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/currencyList"-->
+<!--        android:layout_marginTop="16dp"/>-->
+
+<!--</RelativeLayout>-->
